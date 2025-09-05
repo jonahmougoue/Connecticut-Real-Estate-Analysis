@@ -41,14 +41,14 @@ Hyperparameters for all models were tuned using `GridSearchCV`.
 ## Results
 
 ### Sale Amount
-- Ridge Regression achieved $R^2 \approx 0.9$
-- `Assessed Value` alone explains most of the variance ($R^2 \approx 0.9$)  
-- Removing `Assessed Value` drops performance drastically ($R^2 \approx 0.18$)  
+- Ridge Regression achieved $R^2 \approx 0.90$
+- `Assessed Value` alone explains most of the variance ($R^2 \approx 0.90$)  
+- Removing `Assessed Value` drops performance drastically ($R^2 \approx 0.14$)  
 
 **Insight:** Sale Amount can be reliably predicted from Assessed Value, allowing buyers and sellers to make informed pricing decisions.
 
 ### Sales Ratio
-- LIGHTGBM achieved $R^2 \approx 0.51$
+- LIGHTGBM achieved $R^2 \approx 0.50$
 - Feature importance analysis shows `List Year` dominates
 - Partial dependence plots reveal spikes around 2008 (housing crash) and dips around 2020 (COVID-19 pandemic)  
 

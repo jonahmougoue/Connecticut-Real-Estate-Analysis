@@ -26,13 +26,13 @@ Targets:
 - **Linear Regression**  
 - **ARD Regression**
 
-These models were primarily used for predicting **Sale Amount**, as it has a strong linear relationship with `Assessed Value`.
+These models were primarily used for predicting `Sale Amount`, as it has a strong linear relationship with `Assessed Value`.
 
 ### Tree-Based Models
 - **XGBoost**  
 - **LightGBM**  
 
-These models were primarily used for predicting **Sales Ratio**, which exhibits non-linear relationships influenced by market conditions (`List Year`, historic events).  
+These models were primarily used for predicting `Sales Ratio`, which exhibits non-linear relationships influenced by market conditions (`List Year`, historic events).  
 
 Hyperparameters for all models were tuned using `GridSearchCV`.
 
